@@ -42,8 +42,14 @@ function convertCurrency(amount, price, symbol) {
 
     // calcula o valor da conversão
     let total = amount * price
-    total = formatCurrencyBRL(total).replace("R$", "")
 
+    // valida se total é de fato um número válido
+    if (isNaN(total)) {
+      return alert("Insira um número válido para coversão")
+    }
+
+    // formatar o valor para exibição
+    total = formatCurrencyBRL(total).replace("R$", "")
     //let total = String(amount * price).replace('.', ',')
 
     // exibe o total
