@@ -98,10 +98,3 @@ Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para m
 
 Se tiver sugestões ou quiser compartilhar algo sobre o projeto, pode abrir uma **issue** no GitHub ou entrar em contato via [insira seu e-mail ou rede social].
 
----
-
-### Como usar esse README
-
-- Substitua onde for necessário (por exemplo, nome do autor, link do perfil).
-- Adicione badges (por exemplo, número de visões, GitHub Pages) se quiser dar um toque extra.
-- Se já houver uma API implementada para cotação, insira detalhes (como URL da API e chaves) na seção de “Instalação” ou “Próximas Melhorias”.
